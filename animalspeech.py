@@ -1,6 +1,5 @@
 import io
 import os
-import pygame
 import time
 import vlc
 from gtts import gTTS
@@ -22,8 +21,7 @@ def play_message(message: str):
     VLC
     """
     print(message)
-    tts = gTTS(message, lang="en-uk")
-    pygame.mixer.init()
+    tts = gTTS(message, lang="en-in")
     tts.save("/tmp/tmp.mp3")
     player = vlc.MediaPlayer("/tmp/tmp.mp3")
     player.play()
