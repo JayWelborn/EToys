@@ -1,0 +1,3 @@
+[submodule "ChooseYourOwnAdventure"]
+	path = ChooseYourOwnAdventure
+	url = git@github.com:JayWelborn/ChooseYourOwnAdventure.git
