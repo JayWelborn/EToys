@@ -1,3 +1,5 @@
 venv/
 .vscode/
 .gitmodules
+__pycache__/
+*.py[cod]
